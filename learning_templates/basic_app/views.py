@@ -14,3 +14,6 @@ def other(request):
 
 def relative(request):
     return render(request,'basic_app/relative_url_template.html')
+	
+def new(request):
+     return render(request,'basic_app/index.html',context_dict)
